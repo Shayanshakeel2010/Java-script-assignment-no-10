@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claculator</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+<h1>CALCULATOR !</h1>
+
+
+
+    <div class="box">
+        <input type="text" id="display" readonly >
+
+        <br><br>
+<button onclick="add('7'), playSong()">7</button>
+<button onclick="add('8'), playSong()">8</button>
+<button onclick="add('9'), playSong()">9</button>
+<button onclick="add('*'), playSong()">x</button>
+
+<button onclick="add('4'), playSong()">4</button>
+<button onclick="add('5'), playSong()">5</button>
+<button onclick="add('6'), playSong()">6</button>
+<button onclick="add('-'), playSong()">-</button>
+
+<button onclick="add('1'), playSong()">1</button>
+<button onclick="add('2'), playSong()">2</button>
+<button onclick="add('3'), playSong()">3</button>
+<button onclick="add('+'), playSong()">+</button>
+
+<button  onclick="equal() , playSong()">=</button>
+<button onclick="add('/'), playSong()">÷</button>
+<button onclick="add('.'), playSong()">.</button>
+
+<button onclick="backspace(), playSong()">C</button>
+<button class="btn" onclick="clearAll(), playSong()">Clear All</button>
+
+    </div>
+    
+    <button onclick="changeBg() , playSong()" class="btn">Change BG</button>
+    <script src="script.js"></script>
+
+
+<audio id="music" autoplay>
+   <source src="New project51.mp4" type="video/mp4">
+</audio>
+
+
+
+</html>
